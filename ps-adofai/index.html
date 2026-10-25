@@ -1,0 +1,16 @@
+<!-- Made by iKingMugz --> 
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iKingMugz/ecog-file2@main/ps-adofai/style.css">
+<script src="https://cdn.jsdelivr.net/gh/iKingMugz/ecog-file2@main/ps-adofai/UnityProgress.js">
+</script>
+<script src="https://cdn.jsdelivr.net/gh/iKingMugz/ecog-file2@main/ps-adofai/Build/UnityLoader.js">
+</script>
+<script>
+	var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/iKingMugz/ecog-file2@main/ps-adofai/Build/adofaiii4.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}}); 
+</script>
+<script src=""></script>
+<div class="webgl-content">
+	<div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+</div>
